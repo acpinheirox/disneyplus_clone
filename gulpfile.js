@@ -8,3 +8,6 @@ function styles(){
 }
 
 exports.default = testeGulp;
+exports.watch = function(){
+    gulp.watch('./src/styles/*.scss', gulp.parallel(styles))
+}
