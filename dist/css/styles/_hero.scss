@@ -1,27 +1,37 @@
-@use 'variaveis'
+@use 'variaveis';
 
 .hero{
     padding: 5.6vw;
     min-height: 100vh;
     background-image: url(/images/hero_desktop.jpeg);
     text-align: center;
-
+    background-size: cover;
+    
     &__content{
-        max-width: 640px;
-
+        max-width: 550px;
         &__branding{
             max-width: 320px;
             margin: 0 auto 38px;
         }
-
+        .img-disney{
+            min-height: 130px;
+            
+        }
         .title--small{
             margin-bottom: 64px;
+            padding: 5px;
         }
+
 
         P{
-            margin-bottom: 20px;
+            margin-bottom: 10px;
+            &:last-child{
+                
+                margin-top: 110px;
+            }
         }
 
+        
         &__combos{
             display: flex;
             justify-content: space-between;
@@ -35,13 +45,13 @@
 
                 button{
                     display: block;
-                    width: 100%;
+                    width: 95%;
                     height: 60px;
                     font-size: 18px;
                     color: variaveis.$corTextoSecundario;
                     background-color: #6421ff;
                     text-transform: uppercase;
-                    border-radius: 4px;
+                    border-radius: 6px;
                     margin-top: 2vw;
                     margin-bottom: 8px;
                 }

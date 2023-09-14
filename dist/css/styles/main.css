@@ -3,19 +3,27 @@
   min-height: 100vh;
   background-image: url(/images/hero_desktop.jpeg);
   text-align: center;
+  background-size: cover;
 }
 .hero__content {
-  max-width: 640px;
+  max-width: 550px;
 }
 .hero__content__branding {
   max-width: 320px;
   margin: 0 auto 38px;
 }
+.hero__content .img-disney {
+  min-height: 130px;
+}
 .hero__content .title--small {
   margin-bottom: 64px;
+  padding: 5px;
 }
 .hero__content P {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+}
+.hero__content P:last-child {
+  margin-top: 110px;
 }
 .hero__content__combos {
   display: flex;
@@ -29,19 +37,41 @@
 }
 .hero__content__combos__combo button {
   display: block;
-  width: 100%;
+  width: 95%;
   height: 60px;
   font-size: 18px;
+  color: #f9f9f9;
+  background-color: #6421ff;
+  text-transform: uppercase;
+  border-radius: 6px;
+  margin-top: 2vw;
+  margin-bottom: 8px;
 }
 
+@font-face {
+  font-family: Avenir;
+  src: url(/fonts/fonts/Avenir-Regular.woff2);
+  font-weight: 400;
+}
+@font-face {
+  font-family: Avenir;
+  src: url(/fonts/fonts/Avenir-Bold.woff2);
+  font-weight: 700;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  max-height: 100px;
 }
 
 body {
   background-color: #040714;
+  font-family: Avenir, sans-serif;
+}
+
+body h3 {
+  margin-top: 60px;
 }
 
 .text--big {
@@ -51,8 +81,8 @@ body {
 }
 
 .text {
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 15px;
+  line-height: 25px;
   color: silver;
 }
 
@@ -77,15 +107,15 @@ body {
 }
 
 .title--small {
-  font-size: 28px;
-  line-height: 38px;
+  font-size: 25px;
+  line-height: 35px;
   color: silver;
   color: #f9f9f9;
 }
 
 .link-text {
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 15px;
+  line-height: 25px;
   color: silver;
   color: #f9f9f9;
   text-decoration: underline;
