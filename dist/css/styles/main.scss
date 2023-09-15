@@ -1,5 +1,6 @@
 @use 'variaveis';
 @use 'hero';
+@use 'shows';
 
 @font-face{
     font-family: Avenir;
@@ -16,12 +17,13 @@
     padding: 0;
     box-sizing: border-box;
     max-height: 100px;
+    font-family: Avenir,sans-serif;
 }
 
 
 body {
     background-color: variaveis.$corDeFundo;
-    font-family: Avenir,sans-serif;
+    
 }
 body h3{
     margin-top: 60px;
