@@ -80,6 +80,7 @@
   text-transform: uppercase;
   margin: 0 1vw;
   cursor: pointer;
+  border-bottom: 5px solid transparent;
 }
 .shows__tabs__button--is-active {
   border-bottom: 5px solid #f9f9f9;
