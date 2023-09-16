@@ -2,6 +2,7 @@
 @use 'hero';
 @use 'shows';
 @use 'plans';
+@use 'watch';
 
 @font-face{
     font-family: Avenir;
@@ -24,7 +25,7 @@
 
 body {
     background-color: variaveis.$corDeFundo;
-    
+    overflow-x: hidden;
 }
 body h3{
     margin-top: 60px;

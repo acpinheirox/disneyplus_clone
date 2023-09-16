@@ -119,6 +119,26 @@
   text-align: center;
 }
 
+.watch-anywhere {
+  max-height: 1000px;
+  padding: 5.6vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-top: 150px;
+}
+.watch-anywhere img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.watch-anywhere__text_container {
+  padding: 0 2vw;
+  margin-top: -80px;
+}
+.watch-anywhere__text_container h2 {
+  margin-bottom: 20px;
+}
+
 @font-face {
   font-family: Avenir;
   src: url(/fonts/fonts/Avenir-Regular.woff2);
@@ -139,6 +159,7 @@
 
 body {
   background-color: #040714;
+  overflow-x: hidden;
 }
 
 body h3 {
