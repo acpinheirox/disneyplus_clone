@@ -4,6 +4,7 @@
   background-image: url(/images/hero_desktop.jpeg);
   text-align: center;
   background-size: cover;
+  margin-left: -25px;
 }
 .hero__content {
   max-width: 550px;
