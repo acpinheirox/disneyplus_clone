@@ -38,8 +38,9 @@
 
 .shows {
   padding: 10px 5.6vw;
-  margin-top: 70px;
+  margin-top: 120px;
   min-height: 20vw;
+  margin-left: -20px;
 }
 .shows__list {
   margin-top: 40px;
@@ -80,6 +81,7 @@
   padding: 5.6vw;
   max-height: 600px;
   position: relative;
+  margin-left: -20px;
 }
 .plans h2 {
   text-align: center;
@@ -99,7 +101,7 @@
   content: "";
   position: absolute;
   top: 155px;
-  left: 473px;
+  left: 490px;
   width: 100%;
   height: 100%;
   background-image: url("/images/fundo_combo_plus.png");
@@ -139,6 +141,36 @@
   margin-bottom: 20px;
 }
 
+.dispositivos {
+  padding: 5.6vw;
+  margin-top: 650px;
+}
+.dispositivos h2 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+.dispositivos__list {
+  display: grid;
+  gap: 20px;
+  margin-left: -80px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.dispositivos__list__item {
+  text-align: center;
+}
+.dispositivos__list__item h4 {
+  margin-top: 20px;
+  margin-bottom: 24px;
+}
+.dispositivos__list__item li {
+  list-style: none;
+}
+.dispositivos__list__item img {
+  width: 300px;
+  max-height: 300px;
+  margin-top: 40px;
+}
+
 @font-face {
   font-family: Avenir;
   src: url(/fonts/fonts/Avenir-Regular.woff2);
@@ -154,7 +186,9 @@
   padding: 0;
   box-sizing: border-box;
   max-height: 100px;
+  margin-left: 5px;
   font-family: Avenir, sans-serif;
+  max-width: 1850px;
 }
 
 body {
@@ -224,4 +258,26 @@ button {
   border-radius: 6px;
   margin-top: 2vw;
   margin-bottom: 8px;
+}
+
+.image-text-section--image-full-width {
+  display: block;
+  position: relative;
+  margin-top: 70px;
+  margin-left: -70px;
+}
+.image-text-section--image-full-width img {
+  justify-content: center;
+  width: 90%;
+  max-height: 800px;
+  margin-left: 100px;
+}
+.image-text-section--image-full-width__text_container {
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: calc(50% - 5.6vw);
 }/*# sourceMappingURL=main.css.map */

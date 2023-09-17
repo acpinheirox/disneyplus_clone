@@ -1,0 +1,32 @@
+.dispositivos{
+    padding: 5.6vw;
+    margin-top: 650px;
+    h2{
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    &__list{
+        display: grid;
+        gap: 20px;
+        margin-left: -80px;
+        grid-template-columns: repeat(4, 1fr);
+        &__item{
+            text-align: center;
+
+            h4{
+                margin-top: 20px;
+                margin-bottom: 24px;
+                
+            }
+            li{
+                list-style: none;
+            }
+            img{
+                width: 300px;
+                max-height: 300px;
+                margin-top: 40px;
+            }
+        }
+    }
+}

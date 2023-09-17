@@ -2,8 +2,8 @@
     margin-top: 500px;
     padding: 5.6vw;
     max-height: 600px;
-    position: relative; 
-
+    position: relative;
+    margin-left: -20px;
     h2 {
         text-align: center;
     }
@@ -23,7 +23,7 @@
                 content: "";
                 position: absolute;
                 top: 155px;
-                left: 473px;
+                left: 490px;
                 width: 100%;
                 height: 100%;
                 background-image: url('/images/fundo_combo_plus.png');
