@@ -1,0 +1,22 @@
+.footer{
+    height: 100px;
+    margin-top: 280px;
+    text-align: center;
+    &__container{
+        max-width: 1024px;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    &__logo{
+        width: 80px;
+        margin: 0 auto 10px;
+    }
+}
+
+
+
+.footer_links{
+    height: 900px;
+}

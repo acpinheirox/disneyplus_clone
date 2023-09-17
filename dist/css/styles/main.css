@@ -224,6 +224,26 @@
   transition: height, 0.5s ease;
 }
 
+.footer {
+  height: 100px;
+  margin-top: 280px;
+  text-align: center;
+}
+.footer__container {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.footer__logo {
+  width: 80px;
+  margin: 0 auto 10px;
+}
+
+.footer_links {
+  height: 900px;
+}
+
 @font-face {
   font-family: Avenir;
   src: url(/fonts/fonts/Avenir-Regular.woff2);
