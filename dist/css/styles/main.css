@@ -100,13 +100,13 @@
 .plans__list__item:nth-child(2)::before {
   content: "";
   position: absolute;
-  top: 155px;
-  left: 490px;
+  top: 165px;
+  left: 485px;
   width: 100%;
   height: 100%;
   background-image: url("/images/fundo_combo_plus.png");
   background-repeat: no-repeat;
-  background-size: 400px 350px;
+  background-size: 400px 340px;
   z-index: -1;
 }
 .plans__list__item img {
@@ -169,6 +169,58 @@
   width: 300px;
   max-height: 300px;
   margin-top: 40px;
+}
+
+.faq {
+  height: 100%;
+  margin-top: 600px;
+  padding: 5.6vw;
+}
+.faq h2 {
+  text-align: center;
+  margin-bottom: 24px;
+}
+.faq__questions__item {
+  background-color: #13151d;
+  margin-bottom: 10px;
+  list-style: none;
+  align-items: center;
+}
+.faq__questions__item__questions {
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  padding: 24px;
+  display: block;
+  cursor: pointer;
+  position: relative;
+}
+.faq__questions__item__questions::after {
+  content: "+";
+  position: absolute;
+  top: -64px;
+  right: 24px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+}
+.faq__questions__item .resposta {
+  height: 0;
+  overflow: hidden;
+  padding: 0 24px;
+  transition: height, 0.5s ease;
+}
+.faq__questions__item--is-open .faq__questions__item__questions::after {
+  content: "-";
+}
+.faq__questions__item--is-open .resposta {
+  height: auto;
+  padding-left: 24px;
+  margin-left: 0px;
+  background-color: #13151d;
+  margin-top: -10px;
+  transition: height, 0.5s ease;
 }
 
 @font-face {
