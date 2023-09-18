@@ -3,7 +3,7 @@
     padding: 5.6vw;
     max-height: 600px;
     position: relative;
-    margin-left: -20px;
+    margin-left: -10px;
     h2 {
         text-align: center;
     }
@@ -23,7 +23,7 @@
                 content: "";
                 position: absolute;
                 top: 165px;
-                left: 485px;
+                left: 480px;
                 width: 100%;
                 height: 100%;
                 background-image: url('/images/fundo_combo_plus.png');
@@ -46,5 +46,6 @@
     .p-planos {
         margin-top: 330px;
         text-align: center;
+        margin-left: 20px;
     }
 }

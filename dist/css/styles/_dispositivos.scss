@@ -1,9 +1,11 @@
 .dispositivos{
     padding: 5.6vw;
     margin-top: 650px;
+    margin-left: -10px;
     h2{
         text-align: center;
         margin-bottom: 24px;
+        margin-left: 10px;
     }
 
     &__list{
@@ -17,7 +19,7 @@
             h4{
                 margin-top: 20px;
                 margin-bottom: 24px;
-                
+                margin-left: 10px;
             }
             li{
                 list-style: none;
@@ -26,6 +28,7 @@
                 width: 300px;
                 max-height: 300px;
                 margin-top: 40px;
+                margin-left: 10px;
             }
         }
     }
