@@ -8,6 +8,11 @@
     text-align: center;
     background-size: cover;
     margin-left: -50px;
+
+    button{
+        margin-top: 20px;
+        margin-bottom: 8px;
+    }
     &__content{
         max-width: 550px;
         &__branding{

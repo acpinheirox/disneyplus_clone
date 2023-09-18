@@ -7,6 +7,10 @@
   background-size: cover;
   margin-left: -50px;
 }
+.hero button {
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
 .hero__content {
   max-width: 550px;
 }
@@ -84,6 +88,10 @@
   max-height: 600px;
   position: relative;
   margin-left: -10px;
+}
+.plans button {
+  margin-top: 20px;
+  margin-bottom: 8px;
 }
 .plans h2 {
   text-align: center;
@@ -296,6 +304,22 @@
   height: 900px;
 }
 
+.header__container {
+  padding: 8px 36px;
+  display: flex;
+  justify-content: space-between;
+}
+.header__logo {
+  max-width: 80px;
+  width: 100%;
+}
+.header__links {
+  display: flex;
+}
+.header__links__item {
+  margin: 5px;
+}
+
 @font-face {
   font-family: Avenir;
   src: url(/fonts/fonts/Avenir-Regular.woff2);
@@ -381,8 +405,6 @@ button {
   background-color: #6421ff;
   text-transform: uppercase;
   border-radius: 6px;
-  margin-top: 2vw;
-  margin-bottom: 8px;
 }
 
 .image-text-section--image-full-width {

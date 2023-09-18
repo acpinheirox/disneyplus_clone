@@ -6,6 +6,7 @@
 @use 'dispositivos';
 @use 'faq';
 @use 'footer';
+@use 'header';
 
 @font-face{
     font-family: Avenir;
@@ -85,8 +86,7 @@ button{
     background-color: #6421ff;
     text-transform: uppercase;
     border-radius: 6px;
-    margin-top: 2vw;
-    margin-bottom: 8px;
+
 }
 
 .image-text-section{
