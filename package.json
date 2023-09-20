@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RamonSilvab/clone_disneyplus.git"
+    "url": "git+https://github.com/acpinheirox/disneyplus_clone.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/RamonSilvab/clone_disneyplus/issues"
+    "url": "https://github.com/acpinheirox/disneyplus_clone/issues"
   },
-  "homepage": "https://github.com/RamonSilvab/clone_disneyplus#readme",
+  "homepage": "https://github.com/acpinhierox/disneyplus_clone#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-imagemin": "^7.1.0",
