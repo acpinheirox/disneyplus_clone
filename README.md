@@ -21,8 +21,9 @@ O Clone do Disney Plus é uma recriação da interface de usuário da plataforma
 ## Contato :telephone_receiver:
 Se você tiver alguma dúvida, sugestão ou simplesmente quiser entrar em contato comigo, sinta-se à vontade para enviar um e-mail para matoscezar17@gmail.com.
 
-Agradeço por visitar meu repositório e considerar contribuir para o Restaurante Japonês Sabor do Oriente. Esperamos que este projeto possa continuar crescendo e proporcionando experiências deliciosas aos amantes da culinária japonesa em todo o mundo!
+Agradeço por visitar meu repositório e considerar contribuir para o projeto Clone Disney Plus. Esperamos que este projeto possa continuar crescendo e inspirando as pessoas, divirta-se explorando o Clone do Disney Plus!
 
-**Deploy: **
+**Deploy: https://acpinheirox.github.io/disneyplus_clone/# **
 
-![Clone Disney+ e mais 13 páginas - Pessoal — Microsoft​ Edge 20_09_2023 09_42_18](https://github.com/acpinheirox/disneyplus_clone/assets/128848972/e37e26a8-59f6-4967-8192-913ec5b2a664)
+![Clone Disney+ e mais 13 páginas - Pessoal — Microsoft​ Edge 20_09_2023 09_42_18](https://github.com/acpinheirox/disneyplus_clone/assets/128848972/85b9a250-768b-4a5a-8523-e1f23795d19f)
+
