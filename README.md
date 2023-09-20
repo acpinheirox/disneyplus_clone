@@ -11,7 +11,7 @@ O Clone do Disney Plus é uma recriação da interface de usuário da plataforma
 
 - **Escolha seu plano: Veja os planos disponiveis e seus valores.**
 
-## Tecnologias Utilizadas
+## Tecnologias Utilizadas :ballot_box_with_check:
 **Este projeto foi desenvolvido com as seguintes tecnologias:**
 
 - HTML5 e CSS3: Para a estrutura e a estilização da página.
