@@ -25,4 +25,5 @@ Agradeço por visitar meu repositório e considerar contribuir para o projeto Cl
 
 **Deploy: https://acpinheirox.github.io/disneyplus_clone/# **
 
-![Clone Disney+ e mais 13 páginas - Pessoal — Microsoft​ Edge 20_09_2023 09_42_18](https://github.com/acpinheirox/disneyplus_clone/assets/128848972/e37e26a8-59f6-4967-8192-913ec5b2a664)
+![Clone Disney+ e mais 13 páginas - Pessoal — Microsoft​ Edge 20_09_2023 09_42_18](https://github.com/acpinheirox/disneyplus_clone/assets/128848972/85b9a250-768b-4a5a-8523-e1f23795d19f)
+
